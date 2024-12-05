@@ -1,0 +1,13 @@
+baseURL = '/'
+languageCode = 'en-us'
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+
+
+[params]
+  [params.socialIcons]
+    instagram = "https://www.instagram.com/can_nrs/"
+    email = "mailto:cannen@canners.co"

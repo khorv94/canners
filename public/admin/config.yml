@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   repo: khorv94/canners
   branch: main # Branch to update (optional; defaults to master)
-  base_url: https://decap.canners.co
+  base_url: https://khorv.com
 
 media_folder: static/img # Specifies the folder path where uploaded files should be saved, relative to the base of the repo.
 public_folder: /img

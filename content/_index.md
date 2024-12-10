@@ -1,8 +1,9 @@
 ---
-description: Nature photography
+description: Nature photography #home page description
 #lastmod: 2023-07-05
 title: Canners
-featured_image: martin-martz-wRuhOOaG-Z4-unsplash.jpg # default: first image in this directory
+featured_image:
+
 # featured_image on the home page is used for OpenGraph cards, etc.
 menus:
   main:

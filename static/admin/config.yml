@@ -3,8 +3,10 @@ backend:
   repo: khorv94/canners
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://decap.canners.co
-media_folder: static/img #specifies the folder path where uploaded files should be saved, relative to the base of the repo.
+
+media_folder: static/img # Specifies the folder path where uploaded files should be saved, relative to the base of the repo.
 public_folder: /img
+
 collections:
   - name: 'pacific-northwest'
     label: 'Photos'
@@ -13,8 +15,16 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
-    # fields:
-    #   - { label: 'Title', name: 'title', widget: 'string' }
-    #   - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-    #   - { label: 'Description', name: 'description', widget: 'string' }
-    #   - { label: 'Body', name: 'body', widget: 'markdown' }
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Publish Date'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'

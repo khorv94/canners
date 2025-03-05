@@ -1,5 +1,5 @@
 baseURL: ''
-title: TailBliss
+title: Canners
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -8,8 +8,6 @@ enableRobotsTXT: true
 canonifyURLs: true
 pagination:
   pagerSize: 6
-darkmode_js:
-  - assets/js/darkmode.js
 enableInlineShortcodes: true
 
 markup:
@@ -47,8 +45,6 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
-  authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Super Fast, and Flexible"
   description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
@@ -96,26 +92,12 @@ params:
     placeholder: "Enter your email"
     button: "Notify me"
 
-  social_media:
-    github:
-      enabled: true
-      url: 'https://github.com/nusserstudios'
-    facebook:
-      enabled: true
-      url: 'https://facebook.com/nusserstudios'
-    instagram:
-      enabled: true
-      url: 'https://instagram.com/nusserstudios'
-    twitter:
-      enabled: true
-      url: 'https://twitter.com/nusserstudios'
-    
-
+  
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: blog
+      name: Blog
+      url: /blog/
       weight: 10
     - identifier: about
       name: About
@@ -154,26 +136,18 @@ menu:
       url: "#"
       weight: 30
   footer:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
     - identifier: about
       name: About
       url: /about/
-      weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
       weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 50
+      weight: 30
 
 markup:
   goldmark:
@@ -193,18 +167,18 @@ privacy:
     respectDoNotTrack: false
     useSessionStorage: false
   instagram:
-    disable: false
+    disable: true
     simple: false
   twitter:
-    disable: false
+    disable: true
     enableDNT: false
     simple: false
   vimeo:
-    disable: false
+    disable: true
     enableDNT: false
     simple: false
   youtube:
-    disable: false
+    disable: true
     privacyEnhanced: true
 
 module:

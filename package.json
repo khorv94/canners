@@ -42,6 +42,6 @@
   "homepage": "https://github.com/nusserstudios/tailbliss",
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.9",
-    "tailwindcss": "^4.0.9"
+    "tailwindcss": "^4.0.12"
   }
 }
